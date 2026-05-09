@@ -38,7 +38,7 @@ homelab.local
         └── Asim Munir
 ```
 
-![ADUC OU Structure and Users](Screenshots/Screenshot 2026-05-09 at 3.36.43 PM.png)
+![ADUC OU Structure and Users](Screenshots/ADUC.png)
 
 ---
 
@@ -62,7 +62,7 @@ homelab.local
 
 ## Group Policy Objects
 
-![Group Policy Management](Screenshots/Screenshot 2026-05-09 at 3.37.20 PM.png)
+![Group Policy Management](Screenshots/GPO.png)
 
 ### GPO_CSDept (Customer Service)
 - Prohibit access to Control Panel and PC Settings
@@ -93,7 +93,7 @@ homelab.local
 | Password must meet complexity requirements | Enabled |
 | Store passwords using reversible encryption | Disabled |
 
-![Password Policy](Screenshots/Screenshot 2026-05-09 at 4.05.39 PM.png)
+![Password Policy](Screenshots/GPO_PW.png)
 
 ### Account Lockout Policy
 
@@ -103,7 +103,7 @@ homelab.local
 | Account lockout threshold | 5 invalid logon attempts |
 | Reset account lockout counter after | 15 minutes |
 
-![Account Lockout Policy](Screenshots/Screenshot 2026-05-09 at 4.06.18 PM.png)
+![Account Lockout Policy](Screenshots/GPO_Account.png)
 
 ### Audit Policy
 
@@ -117,7 +117,7 @@ homelab.local
 | Audit privilege use | Success, Failure |
 | Audit system events | Success, Failure |
 
-![Audit Policy](Screenshots/Screenshot 2026-05-09 at 4.06.04 PM.png)
+![Audit Policy](Screenshots/GPO_Audit.png)
 
 ---
 
@@ -131,7 +131,7 @@ Department shares configured with NTFS permissions enforcing least privilege acc
 | IT | C:\Shares\IT | RG_ITDept |
 | Management | C:\Shares\Management | RG_Management |
 
-![File Shares](Screenshots/Screenshot 2026-05-09 at 4.04.01 PM.png)
+![File Shares](Screenshots/FileShares.png)
 
 ---
 
