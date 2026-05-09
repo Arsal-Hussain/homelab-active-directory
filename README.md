@@ -162,6 +162,16 @@ Set-Acl "C:\Shares\Management" $acl
 
 ---
 
+## GPO Reports
+
+Detailed GPO configuration reports exported from Group Policy Management Editor.
+
+- [GPO_CSDept Settings Report](Reports/GPO_CSDept.html)
+- [GPO_ITDept Settings Report](Reports/GPO_ITDept.html)
+- [GPO_Management Settings Report](Reports/GPO_Management.html)
+
+---
+
 ## Skills Demonstrated
 
 - Active Directory Domain Services (AD DS) deployment and configuration
